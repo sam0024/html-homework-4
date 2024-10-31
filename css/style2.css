@@ -1,0 +1,206 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+
+body { 
+    background: linear-gradient(50deg, hotpink, white, hotpink);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+
+    display: flex;
+    align-items: flex-start; /* Aligns content to the top */
+    justify-content: center; /* Centers content horizontally */
+    padding: 2px; /* Add padding to the body for spacing */
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center images horizontally */
+}
+
+.logo {
+    width: 300px;
+}
+
+.png {
+    width: 80px;
+}
+
+
+.content button {
+	width: 140px;
+	padding: 15px 0;
+	border-radius: 30px;
+	font-size: 14px;
+	font-weight: bold;
+	border: none;
+	background: #ED164F;
+	color: #fff;
+	cursor: pointer;
+	transition: .2s;
+	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.content button:hover {
+	opacity: 0.85;
+}
+
+.products {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;	
+	cursor: pointer;
+	transition: .2s;
+	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+	gap: 20px;
+}
+
+/*.products:hover {
+	opacity: 0.85;
+}*/
+
+.pillow1 {
+	width: 300px;
+}
+
+.pillow1:hover {
+	opacity: 0.85;
+}
+
+.pillow2 {
+	width: 300px;
+}
+
+.pillow2:hover {
+	opacity: 0.85;
+}
+
+.pillow3 {
+	width: 300px;
+}
+
+.pillow3:hover {
+	opacity: 0.85;
+}
+
+.pillow4 {
+	width: 300px;
+}
+
+.pillow4:hover {
+	opacity: 0.85;
+}
+
+.pillow5 {
+	width: 300px;
+}
+
+.pillow5:hover {
+	opacity: 0.85;
+}
+
+.pillow6 {
+	width: 300px;
+}
+
+.pillow6:hover {
+	opacity: 0.85;
+}
+
+.pillow7 {
+	width: 300px;
+}
+
+.pillow7:hover {
+	opacity: 0.85;
+}
+
+.pillow8 {
+	width: 300px;
+}
+
+.pillow8:hover {
+	opacity: 0.85;
+}
+
+.ending {
+	display: flex;
+	align-items: center;
+}
+
+.bow {
+	width: 200px;
+}
+
+.Btn {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 45px;
+  height: 45px;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  transition-duration: .3s;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.199);
+  background-color: #ED164F;
+}
+
+/* plus sign */
+.sign {
+  width: 100%;
+  transition-duration: .3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sign svg {
+  width: 17px;
+}
+
+.sign svg path {
+  fill: white;
+}
+/* text */
+.text {
+  position: absolute;
+  right: 0%;
+  width: 0%;
+  opacity: 0;
+  color: white;
+  font-size: 1.2em;
+  font-weight: 600;
+  transition-duration: .3s;
+}
+/* hover effect on button width */
+.Btn:hover {
+  width: 125px;
+  border-radius: 40px;
+  transition-duration: .3s;
+}
+
+.Btn:hover .sign {
+  width: 30%;
+  transition-duration: .3s;
+  padding-left: 20px;
+}
+/* hover effect button's text */
+.Btn:hover .text {
+  opacity: 1;
+  width: 70%;
+  transition-duration: .3s;
+  padding-right: 10px;
+}
+/* button click effect*/
+.Btn:active {
+  transform: translate(2px ,2px);
+}
